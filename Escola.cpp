@@ -13,8 +13,6 @@ struct Disciplina
     int id_disc;
 
     Disciplina() : id_professor(0), id_disc(contador++) {}
-
-    
 };
 
 int Disciplina::contador = 0;
@@ -156,3 +154,4 @@ int main()
 
     return 0;
 }
+    
